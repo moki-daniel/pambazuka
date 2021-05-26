@@ -1,0 +1,400 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+/* -------------------------------- */
+/* general styles */
+*{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /* font-size: 22px; */
+}
+
+body section{
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Anton', sans-serif;
+}
+
+.clean-section{
+    padding: 50px 0;
+    margin: 0px auto;
+}
+
+.section-greyish-background{
+    background-color: #111;
+}
+
+.btn{
+    font-size: 1.2em;
+    background-color: #f60210;
+    color: #fff;
+}
+
+.heading-title{
+    font-size: 2em;
+    background-image: url(../img/titleBackground.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 15px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#events h2,
+#about h4,
+header p,
+#news-subscribe form label,
+footer h5,
+footer #social-icons i:hover,
+footer #links a:hover{
+    color: #f9bd11;
+}
+
+/* START navigation bar styles */
+.navbar{
+    background-color: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative; 
+}
+.navbar-brand {
+    height: 220px;
+}
+
+.navbar #logo {
+    width: 150px;
+    margin-right: 60px;
+    margin-top: -30px;
+} 
+.nav-link {
+    align-content: right;
+    margin-left: 40px;
+    color: #111 !important;
+}
+
+.nav-link:hover, .navbar a:hover{
+    color: #f60210 !important;
+}
+
+.navbar a {
+    font-size: 1.3em;
+    color: #111;
+    font-family: 'Anton', sans-serif;
+}
+
+.navbar i{
+    margin: 0px 10px;
+}
+/* END navigation bar styles */
+
+/* START header styles */
+header{
+    background: linear-gradient(
+        rgba(0,0,0, 0.5),
+        rgba(0, 0, 0, 0.8)),
+        url(../img/heroimage1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header #header-content{
+    color: #fff;
+    padding: 70px 30px;
+    text-align: center;
+    margin: auto;
+}
+
+header #header-content p{
+    font-size: 20px;
+}
+
+header #header-content h1{
+    font-size: 2.5em;
+}
+
+header #header-content button{
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+}
+/* END header styles */
+
+/* START about section styles */
+#about{
+    padding: 30px;
+}
+.about-content-title {
+    margin-bottom: 10px;
+
+}
+#about .about-content{
+    margin: 20px 0;
+}
+
+#about img{
+    width: 150px;
+    margin: -30px 0;
+}
+/* END about section styles */
+
+/* START films section styles */
+#events .card{
+    padding-top: 20px;
+    background-color: transparent;
+    border: none;
+    margin: auto;
+}
+
+#events .card:hover{
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    border: 1px solid #000;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+}
+
+#events .card .card-title, #films .card .card-text{
+    color: #fff;
+}
+#events .card .card-subtitle{
+    color: #f9bd11;
+}
+
+#events .card .card-detail{
+    background-color: #f60210;
+    padding: 7px 12px;
+    font-size: 18px;
+    color: #ddd;
+    border-radius: 2px;
+}
+
+
+/* END films section styles */
+
+/* START news section styles */
+#news .news-article{
+    padding: 5px 15px;
+    margin: 0 25px;
+}
+#news .news-article:hover{
+    cursor: pointer;
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#news .news-article h4{
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    margin: auto 5px;
+    margin-bottom: 15px;
+}
+
+#news .news-article time{
+    background-color: #f9bd11;
+    padding: 2px 4px;
+}
+
+#news .news-article p{
+    margin-top: 5px;
+}
+
+/* END news section styles */
+
+/* START subscribtion section */
+#news-subscribe .form-inline{
+    display: block;
+    margin: 20px auto;
+}
+
+#news-subscribe form label{
+    font-size: 1.5em;
+    margin: 5px 10px;
+}
+
+#news-subscribe form input{
+    padding: 21px;
+}
+/* END subscribtion section */
+
+/* START registration header */
+#registration-header{
+    padding: 0 70px;
+    height: 300px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.8)
+        ),
+        url(../img/registration.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+
+#registration-header i{
+    font-size: 3.5em;
+    /* color: #f9bd11; */
+}
+/* END registration header */
+
+/* START registration from */
+#register form{
+    padding: 0 25px;
+}
+/* END registration from */
+
+
+/* START footer */
+footer{
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 1px;
+}
+footer #social-icons i{
+    font-size: 30px;
+    padding: 15px;
+    color: #fff;
+}
+
+footer #links{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+footer #links a{
+    color: #fff;
+    font-size: 1.2em;
+    display: block;
+}
+
+/* {
+    color: #f9bd11;
+} */
+
+footer span{
+    color: #f60210;
+}
+/* END footer */
+/* -------------------------------- */
+/* device screen max width 341px */
+@media (max-width: 341px) {
+    .navbar #logo{
+        height: 100px;
+    }
+}
+
+/* device screen between 321px and 768px */
+@media (min-width: 350px) and (max-width: 767px) {
+    .heading-title{
+        width: 300px;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 18px 0px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    p{
+        font-size: 1.2em;
+    }
+    #about img{
+        width: 300px;
+    }
+    #news .news-article{
+        margin: 0;
+    }
+    #registration-header{
+        height: 250px;
+    }
+    footer #social-icons i{
+        padding: 15px 35px;
+    }
+    footer #links a{
+        font-size: 1.5em;
+        display: inline;
+        margin: 0 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .heading-title{
+        background-image: url(../img/titleBackground.jpeg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-align: left;
+        font-size: 2.5em;
+        padding: 15px 50px;
+    }
+    p{
+        font-size: 1.3em;
+    }
+    header #header-content{
+        padding: 70px 100px;
+    }
+    header #header-content p{
+        font-size: 22px;
+    }
+    header #header-content button{
+        font-size: 1.3em;
+    }
+    #about, #news{
+        text-align: left;
+    }
+    #news .news-article h4{
+        margin-right: 100px;
+    }
+    #about img{
+        width: 250px;
+    }
+    #news-subscribe .form-inline{
+        display: flex;
+    }
+    #register form label{
+        font-size: 1.2em;
+    }
+    #films .card{
+        margin: 0;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    header #header-content{
+        padding: 85px 200px;
+    }
+    header #header-content h1{
+        font-size: 4em;
+    }
+    header #header-content p{
+        font-size: 30px;
+    }
+    #news .news-article h4{
+        margin-right: 200px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .navbar #logo {
+        width: 250px;
+        margin-right: 60px;
+        margin-top: -85px;
+    } 
+    header #header-content{
+        padding: 150px;
+    }
+    #about img{
+        width: 300px;
+    }
+    #news-subscribe form label{
+        font-size: 2em;
+        margin-right: 100px;
+    }
+    #about img {
+        width: 250px;
+        margin: -85px 0;
+    }
+}
